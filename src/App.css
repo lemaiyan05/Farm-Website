@@ -1,0 +1,81 @@
+/* App-specific styles */
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f5f2eb;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4a7c59;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3d6548;
+}
+
+/* Selection color */
+::selection {
+  background: #4a7c59;
+  color: white;
+}
+
+/* Focus styles */
+*:focus-visible {
+  outline: 2px solid #4a7c59;
+  outline-offset: 2px;
+}
+
+/* Image loading placeholder */
+img {
+  background-color: #f5f2eb;
+}
+
+/* Button hover transitions */
+button {
+  transition: all 0.2s ease-in-out;
+}
+
+/* Card hover effects */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px -8px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive typography */
+@media (max-width: 640px) {
+  h1 {
+    font-size: 2.25rem !important;
+  }
+  
+  h2 {
+    font-size: 1.875rem !important;
+  }
+}
+
+/* Animation performance */
+.animate-fade-in-up,
+.animate-fade-in,
+.animate-slide-in-left,
+.animate-slide-in-right {
+  will-change: transform, opacity;
+}
+
+/* Prevent layout shift */
+img {
+  height: auto;
+  max-width: 100%;
+}
