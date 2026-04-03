@@ -215,7 +215,7 @@ function App() {
               size="lg"
               variant="outline"
               onClick={() => scrollToSection('about')}
-              className="border-white text-white hover:bg-white/10 px-8"
+              className="border-white text-black hover:bg-white/10 px-8"
             >
               Our Story
             </Button>
@@ -285,7 +285,7 @@ function App() {
             >
               <div className="relative">
                 <img
-                  src="./dist/farm5.jpg"
+                  src="./dist/farm-life.jpg"
                   alt="Farmer with cows"
                   className="rounded-2xl shadow-xl w-full"
                 />
