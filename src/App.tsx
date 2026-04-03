@@ -175,7 +175,7 @@ function App() {
       >
         <div className="absolute inset-0">
           <img
-            src="./dist/hero-farm.jpg"
+            src="./hero-farm.jpg"
             alt="Beautiful dairy farm at sunset"
             className="w-full h-full object-cover"
           />
@@ -285,7 +285,7 @@ function App() {
             >
               <div className="relative">
                 <img
-                  src="./dist/farm-life.jpg"
+                  src="./farm-life.jpg"
                   alt="Farmer with cows"
                   className="rounded-2xl shadow-xl w-full"
                 />
